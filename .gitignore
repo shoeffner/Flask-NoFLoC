@@ -1,0 +1,8 @@
+Flask_NoFLoC.egg-info/
+__pycache__/
+docs/_build
+dist
+htmlcov
+.coverage
+build
+.pypirc
