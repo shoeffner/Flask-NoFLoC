@@ -10,7 +10,6 @@ The rest of the docs describe Flask-NoFLoC's :doc:`api`.
 
 .. _Flask: https://flask.palletsprojects.com
 .. _extension: https://flask.palletsprojects.com/en/1.1.x/extensiondev/
-.. _WebSockets: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 
 
 .. toctree::
