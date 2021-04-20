@@ -14,7 +14,7 @@ to each HTTP response of your app. Documentation_
 .. _Documentation: https://Flask-NoFLoC.readthedocs.io/en/latest/
 .. _Flask extension: https://flask.palletsprojects.com/en/1.1.x/extensiondev/
 .. _Flask: https://flask.palletsprojects.com
-.. _FLoC: https://github.com/WICG/floc
+.. _FLoC: https://web.dev/floc/
 
 To set it up, follow the usual Flask extension setup, either directly:
 
