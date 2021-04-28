@@ -16,6 +16,10 @@ to each HTTP response of your app. Documentation_
 .. _Flask: https://flask.palletsprojects.com
 .. _FLoC: https://web.dev/floc/
 
+
+Examples
+--------
+
 To set it up, follow the usual Flask extension setup, either directly:
 
 .. code:: python
@@ -58,8 +62,33 @@ If you only want to exclude specific route, you can use a decorator:
     def no_floc():
         return 'no FLoC'
 
+
+Installation
+------------
+
 Install via pip and your favorite installation method:
 
 .. code:: bash
 
     pip install Flask-NoFLoC
+
+
+Background
+----------
+
+For some background on FLoC, here is a list of related links:
+
+- Technical background: https://web.dev/floc/
+- Specification: https://github.com/WICG/floc / https://wicg.github.io/floc/
+- An implementation of SimHash: https://github.com/hybridtheory/floc-simhash
+- Critique on FLoC: https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea
+- How to opt out: https://paramdeo.com/blog/opting-your-website-out-of-googles-floc-network
+- Browser coverage: https://www.theverge.com/2021/4/16/22387492/google-floc-ad-tech-privacy-browsers-brave-vivaldi-edge-mozilla-chrome-safari
+
+
+Alternatives
+------------
+
+Came here for Django? Check out django-nofloc_.
+
+.. _django-nofloc: https://pypi.org/project/django-nofloc/
